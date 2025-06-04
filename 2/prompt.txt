@@ -1,0 +1,10 @@
+You're a software engineer. Your task is to write a clear, well-structured bug ticket based on the brief problem description provided below.
+Your bug ticket must follow this format:
+* Title: A concise, descriptive summary of the problem
+* Description: A short paragraph explaining the bug in general terms
+* Steps to Reproduce: A numbered list of precise steps that lead to the bug
+* Expected vs Actual Behavior: What should have happened vs what actually happened
+* Environment: (if known) Browser, OS, App version, etc.
+* Severity or Impact: Estimate of how critical the bug is (e.g., low, medium, high, blocker)
+Write the bug ticket in a professional and neutral tone, making sure it can be understood by developers and QA engineers.
+Problem description: Logout button doesn’t work on Safari. It just doesn’t respond.
