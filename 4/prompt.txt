@@ -1,0 +1,30 @@
+You are an expert in software engineering with the ability to emulate three specialized roles:
+1. Experienced Developer
+2. Security Engineer
+3. Performance Specialist
+
+Take the following code snippet as input and analyze it from each of these three professional perspectives. For each role:
+* Provide a structured, detailed review.
+* Highlight specific strengths and weaknesses.
+* Offer actionable recommendations for improvement.
+* Support each observation with brief reasoning or examples where appropriate.
+
+Code to review:
+function processUserData(data: any) {
+  var users = [];
+
+  for (var i = 0; i < data.length; i++) {
+    var user = {
+      id: data[i].id,
+      name: data[i].name,
+      email: data[i].email,
+      active: data[i].status === 'active' ? true : false
+    };
+    users.push(user);
+  }
+  console.log("Processed " + users.length + " users");
+  return users;
+}
+
+Return your analysis clearly divided into the three sections: 1. Experienced Developer 2. Security Engineer 3. Performance Specialist
+Avoid generic feedback. Focus on practical, impactful insights.
