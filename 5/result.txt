@@ -1,0 +1,59 @@
+Here is the structured analysis for both feedback samples:
+
+---
+
+### **Sample 1 Analysis**
+
+```json
+{
+  "sentiment": "Negative",
+  "isRelevant": true,
+  "mainSubject": "Sensor reliability and hardware issues",
+  "positives": [],
+  "painPoints": [
+    "Sensor intermittently stops tracking even at 8000Hz",
+    "Issue persists even when plugged in",
+    "Initial dongle was non-functional",
+    "High price point despite hardware reliability problems"
+  ],
+  "improvementSuggestions": [
+    "Improve sensor reliability at high polling rates",
+    "Ensure dongle functionality before shipping",
+    "Improve QA testing for premium-priced devices"
+  ],
+  "featuresMentioned": [
+    "Sensor",
+    "Dongle",
+    "Polling rate (8000Hz)",
+    "Wired mode"
+  ],
+  "userExpertise": "Experienced"
+}
+```
+
+**Reasoning:** The user references specific technical aspects (8000Hz polling rate, dongle functionality, and wired usage), indicating hands-on testing and familiarity with performance diagnostics. Tone is clearly frustrated with justified expectations due to premium pricing.
+
+---
+
+### **Sample 2 Analysis**
+
+```json
+{
+  "sentiment": "Mixed",
+  "isRelevant": true,
+  "mainSubject": "Value for money and performance",
+  "positives": [
+    "No apparent flaws in functionality or build"
+  ],
+  "painPoints": [
+    "Perceived lack of value compared to cheaper alternatives"
+  ],
+  "improvementSuggestions": [
+    "Reconsider pricing strategy relative to performance parity with cheaper products"
+  ],
+  "featuresMentioned": [],
+  "userExpertise": "Experienced"
+}
+```
+
+**Reasoning:** The user offers a nuanced view—acknowledging flawless design but questioning the price-to-performance ratio. The ability to compare it with lower-spec alternatives and assess performance parity indicates familiarity with similar products.
