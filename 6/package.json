@@ -1,0 +1,60 @@
+{
+    "name": "enigma-machine",
+    "version": "1.0.0",
+    "description": "Enigma machine implementation with tests",
+    "main": "enigma.js",
+    "type": "commonjs",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "nyc --reporter=text jest > test_report.txt"
+    },
+    "keywords": [
+        "enigma",
+        "encryption",
+        "cryptography"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nyc": "^17.1.0"
+    },
+    "jest": {
+        "collectCoverageFrom": [
+            "enigma.js"
+        ],
+        "coverageThreshold": {
+            "global": {
+                "statements": 60,
+                "branches": 60,
+                "functions": 60,
+                "lines": 60
+            }
+        },
+        "testEnvironment": "node",
+        "verbose": true,
+        "collectCoverage": true,
+        "coverageReporters": [
+            "json",
+            "lcov",
+            "text"
+        ]
+    },
+    "nyc": {
+        "all": true,
+        "reporter": [
+            "text"
+        ],
+        "include": [
+            "**/*.js"
+        ],
+        "exclude": [
+            "node_modules",
+            "**/test/**",
+            "**/__tests__/**"
+        ],
+        "extension": [
+            ".js"
+        ]
+    }
+}
