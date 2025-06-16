@@ -1,0 +1,31 @@
+{
+    "name": "sea-battle",
+    "version": "1.0.0",
+    "description": "Sea Battle game with modern JavaScript",
+    "main": "seabattle.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "nyc --reporter=text jest > test_report.txt"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nyc": "^15.1.0"
+    },
+    "nyc": {
+        "all": false,
+        "reporter": [
+            "text"
+        ],
+        "include": [
+            "seabattle.js"
+        ],
+        "exclude": [
+            "node_modules",
+            "**/test/**",
+            "**/__tests__/**"
+        ],
+        "extension": [
+            ".js"
+        ]
+    }
+}
