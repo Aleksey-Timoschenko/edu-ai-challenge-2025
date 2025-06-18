@@ -1,0 +1,47 @@
+{
+    "name": "schema-validator",
+    "version": "1.0.0",
+    "description": "Type-safe schema validation library",
+    "main": "dist/schema.js",
+    "types": "dist/schema.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "test:coverage": "jest --coverage --coverageReporters=text > test_report.txt",
+        "example": "ts-node example.ts",
+        "lint": "eslint . --ext .ts"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.12",
+        "@types/node": "^20.11.24",
+        "@typescript-eslint/eslint-plugin": "^7.1.0",
+        "@typescript-eslint/parser": "^7.1.0",
+        "eslint": "^8.57.0",
+        "jest": "^29.7.0",
+        "nyc": "^15.1.0",
+        "ts-jest": "^29.1.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    },
+    "nyc": {
+        "all": false,
+        "reporter": [
+            "text"
+        ],
+        "include": [
+            "src/**/*.ts"
+        ],
+        "exclude": [
+            "node_modules",
+            "**/*.test.ts",
+            "**/*.spec.ts",
+            "**/__tests__/**"
+        ],
+        "extension": [
+            ".ts"
+        ],
+        "require": [
+            "ts-node/register"
+        ]
+    }
+}

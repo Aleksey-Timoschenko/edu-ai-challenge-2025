@@ -1,0 +1,200 @@
+  console.log
+    Invalid guess! Please enter two digits between 0 and 9.
+
+      at log (seabattle.js:143:19)
+
+  console.log
+    
+    Let's play Sea Battle!
+
+      at Game.log [as setupGame] (seabattle.js:223:13)
+
+  console.log
+    Try to sink the 3 enemy ships.
+
+      at Game.log [as setupGame] (seabattle.js:224:13)
+
+  console.log
+    
+    Let's play Sea Battle!
+
+      at Game.log [as setupGame] (seabattle.js:223:13)
+
+  console.log
+    Try to sink the 3 enemy ships.
+
+      at Game.log [as setupGame] (seabattle.js:224:13)
+
+  console.log
+    
+    Let's play Sea Battle!
+
+      at Game.log [as setupGame] (seabattle.js:223:13)
+
+  console.log
+    Try to sink the 3 enemy ships.
+
+      at Game.log [as setupGame] (seabattle.js:224:13)
+
+  console.log
+    
+    Let's play Sea Battle!
+
+      at Game.log [as setupGame] (seabattle.js:223:13)
+
+  console.log
+    Try to sink the 3 enemy ships.
+
+      at Game.log [as setupGame] (seabattle.js:224:13)
+
+  console.log
+    PLAYER HIT!
+
+      at Game.log [as playTurn] (seabattle.js:262:19)
+
+  console.log
+    You sunk an enemy battleship!
+
+      at Game.log [as playTurn] (seabattle.js:264:21)
+
+  console.log
+    
+    --- CPU's Turn ---
+
+      at Game.log [as playTurn] (seabattle.js:274:13)
+
+  console.log
+    CPU targets: 99
+
+      at Game.log [as playTurn] (seabattle.js:275:13)
+
+  console.log
+    CPU MISS at 99.
+
+      at Game.log [as playTurn] (seabattle.js:291:15)
+
+  console.log
+    
+    Let's play Sea Battle!
+
+      at Game.log [as setupGame] (seabattle.js:223:13)
+
+  console.log
+    Try to sink the 3 enemy ships.
+
+      at Game.log [as setupGame] (seabattle.js:224:13)
+
+  console.log
+    PLAYER MISS.
+
+      at Game.log [as playTurn] (seabattle.js:268:17)
+
+  console.log
+    
+    --- CPU's Turn ---
+
+      at Game.log [as playTurn] (seabattle.js:274:13)
+
+  console.log
+    CPU targets: 00
+
+      at Game.log [as playTurn] (seabattle.js:275:13)
+
+  console.log
+    CPU HIT at 00!
+
+      at Game.log [as playTurn] (seabattle.js:282:17)
+
+  console.log
+    CPU sunk your battleship!
+
+      at Game.log [as playTurn] (seabattle.js:285:19)
+
+  console.log
+    
+    Let's play Sea Battle!
+
+      at Game.log [as setupGame] (seabattle.js:223:13)
+
+  console.log
+    Try to sink the 3 enemy ships.
+
+      at Game.log [as setupGame] (seabattle.js:224:13)
+
+  console.log
+    
+       --- OPPONENT BOARD ---          --- YOUR BOARD ---
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+      0 1 2 3 4 5 6 7 8 9       0 1 2 3 4 5 6 7 8 9
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+    0 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~     0 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+    1 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~     1 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+    2 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~     2 ~ ~ ~ ~ S ~ ~ ~ ~ ~
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+    3 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~     3 ~ ~ ~ ~ S ~ ~ ~ ~ ~
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+    4 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~     4 ~ ~ ~ ~ S ~ ~ ~ ~ ~
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+    5 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~     5 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+    6 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~     6 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+    7 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~     7 ~ ~ ~ ~ ~ ~ ~ S ~ ~
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+    8 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~     8 ~ ~ ~ S S S ~ S ~ ~
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+    9 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~     9 ~ ~ ~ ~ ~ ~ ~ S ~ ~
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+  console.log
+
+
+      at console.<anonymous> (node_modules/jest-mock/build/index.js:794:25)
+
+--------------|---------|----------|---------|---------|---------------------------------
+File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s               
+--------------|---------|----------|---------|---------|---------------------------------
+All files     |   87.42 |     78.2 |   96.42 |   87.24 |                                 
+ seabattle.js |   87.42 |     78.2 |   96.42 |   87.24 | 163-166,260,280,297-312,329-330 
+--------------|---------|----------|---------|---------|---------------------------------
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------
