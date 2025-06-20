@@ -1,0 +1,36 @@
+{
+  "name": "audio-transcription-app",
+  "version": "1.0.0",
+  "description": "A console application that transcribes audio files using OpenAI Whisper API, generates summaries, and extracts analytics",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "audio",
+    "transcription",
+    "whisper",
+    "openai",
+    "summary",
+    "analysis"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "fs-extra": "^11.0.0",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "bin": {
+    "audio-transcribe": "./dist/index.js"
+  }
+}
